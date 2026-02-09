@@ -732,6 +732,19 @@ body {
     }
 }
 
+/* Keep About image beside text for landscape phones and mobile "desktop site" */
+@media (max-width: 1024px) and (min-width: 700px) and (orientation: landscape),
+       (max-width: 1024px) and (min-width: 900px) {
+    .about-intro {
+        grid-template-columns: 1.35fr 1fr;
+        align-items: center;
+    }
+
+    .profile-image img {
+        max-width: 275px;
+    }
+}
+
 @media (max-width: 768px) {
     .glass-nav {
         height: 64px;
