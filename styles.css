@@ -821,6 +821,12 @@ body {
     .certificate-card {
         grid-column: span 1;
     }
+
+    /* Reset desktop centering rules so items don't get pushed off-grid */
+    .certificate-card:nth-last-child(2),
+    .certificate-card:nth-last-child(1) {
+        grid-column: auto;
+    }
     
     .contact-row {
         flex-wrap: wrap;
