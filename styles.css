@@ -616,10 +616,14 @@ body {
     height: 60px;
 }
 
-.contact-card img.facebook-icon,
-.contact-card img.instagram-icon {
+.contact-card img.facebook-icon {
     width: 42px;
     height: 42px;
+}
+
+.contact-card img.instagram-icon {
+    width: 41px;
+    height: 41px;
 }
 
 .contact-card img.github-icon,
@@ -861,10 +865,14 @@ body {
         height: 50px;
     }
 
-    .contact-card img.facebook-icon,
-    .contact-card img.instagram-icon {
+    .contact-card img.facebook-icon {
         width: 34px;
         height: 34px;
+    }
+
+    .contact-card img.instagram-icon {
+        width: 33px;
+        height: 33px;
     }
 
     .contact-card img.github-icon,
@@ -960,7 +968,7 @@ body {
         font-size: 0.76rem;
     }
 
-    /* Contact page tweaks (mobile) */
+    /* Contact page tweaks (Mobile) */
     .contact-section .section-title {
         font-size: 1.35rem;
         margin-bottom: 1.4rem;
