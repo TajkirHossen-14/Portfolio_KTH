@@ -12,6 +12,12 @@
     --shadow-sm: 0 8px 32px 0 rgba(31, 38, 135, 0.15);
     --shadow-md: 0 8px 32px 0 rgba(31, 38, 135, 0.25);
     --shadow-lg: 0 15px 45px 0 rgba(31, 38, 135, 0.35);
+    color-scheme: light;
+}
+
+html {
+    color-scheme: light !important;
+    forced-color-adjust: none;
 }
 
 * {
@@ -145,7 +151,7 @@ body {
 .nav-links a {
     color: var(--text-secondary);
     text-decoration: none;
-    font-size: 0.9rem;
+    font-size: 0.90rem;
     font-weight: 500;
     transition: all 0.3s ease;
     position: relative;
@@ -765,9 +771,9 @@ body {
     .nav-links {
         gap: 1.5rem;
     }
-    
+
     .nav-links a {
-        font-size: 0.85rem;
+        font-size: 0.9rem;
     }
 
     .logo img {
@@ -907,9 +913,9 @@ body {
     .nav-links {
         gap: 1rem;
     }
-    
+
     .nav-links a {
-        font-size: 0.64rem;
+        font-size: 0.68rem;
     }
 
     .logo img {
