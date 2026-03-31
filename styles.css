@@ -466,8 +466,8 @@ body {
 }
 
 .skill-card img.css-skill-icon {
-    width: 42px;
-    height: 42px;
+    width: 40px;
+    height: 40px;
 }
 
 .skill-card:hover img {
@@ -910,8 +910,8 @@ body {
     }
 
     .skill-card img.css-skill-icon {
-        width: 34px;
-        height: 34px;
+        width: 32px;
+        height: 32px;
     }
     
     .skill-card p {
@@ -1095,8 +1095,8 @@ body {
     }
 
     .skill-card img.css-skill-icon {
-        width: 30px;
-        height: 30px;
+        width: 28px;
+        height: 28px;
     }
     
     .skill-card p {
